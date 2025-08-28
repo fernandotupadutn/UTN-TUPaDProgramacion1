@@ -91,29 +91,30 @@
 #------------------------------------- 
 
 #EJERCICIO-10
-
 # hemiferio = input("Hermiferio Norte o Sur? \n Ingrese S O N ")
-# mes = (input("Ingrese el mes en el que se encuentra: "))
+# hemiferio = hemiferio.upper()
+# mes = (input("Ingrese el mes en el que se encuentra: Por ejemplo: Diciembre"))
 # dia = int(input("Ingrese el dia en el que se encuentra: "))
+# mes = mes.title()
 
-# if (mes == "diciembre" and dia == 21) or (mes == "marzo" and dia == 20) :
-#     if(hemiferio == "n"):
+# if (mes == "Diciembre" and dia == 21) or (mes == "Marzo" and dia == 20) :
+#     if(hemiferio == "N"):
 #         print("Invierno")
-#     elif(hemiferio == "s"):
-#         print("verano")
-# elif (mes== "marzo" and dia == 21 ) or (mes == "junio" and dia == 20):
-#    if(hemiferio == "n"):
-#      print("primavera")
-#    elif(hemiferio == "s"):
-#       print("otoño")
-# elif (mes == "junio" and dia == 21 ) or (mes == "septiembre" and dia == 20):
-#     if(hemiferio == "n"):
-#         print("verano")
-#     elif(hemiferio == "s"):
-#         print("invierno")
-# elif (mes == "septiembre" and dia == 21 ) or (mes == "diciembre" and dia == 20):
-#    if(hemiferio == "n"):
-#         print("otoño")
-#    elif(hemiferio == "s"):
-#         print("primavera")
+#     elif(hemiferio == "S"):
+#         print("Verano")
+# elif (mes== "Marzo" and dia == 21 ) or (mes == "Junio" and dia == 20):
+#    if(hemiferio == "N"):
+#      print("Primavera")
+#    elif(hemiferio == "S"):
+#       print("Otoño")
+# elif (mes == "Junio" and dia == 21 ) or (mes == "Septiembre" and dia == 20):
+#     if(hemiferio == "N"):
+#         print("Verano")
+#     elif(hemiferio == "S"):
+#         print("Invierno")
+# elif (mes == "Septiembre" and dia == 21 ) or (mes == "Diciembre" and dia == 20):
+#    if(hemiferio == "N"):
+#         print("Otoño")
+#    elif(hemiferio == "S"):
+#         print("Primavera")
 #------------------------------------- 
