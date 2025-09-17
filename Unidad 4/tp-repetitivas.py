@@ -75,3 +75,25 @@ for i in range(1,10 + 1 ):
 print(f"los positivos son {positivos}\n, los pares son {pares}\n,los impares son {impares}\n, los negativos son {negativos}")
 #-------------------------------------
 
+#EJERCICIO-9
+total=0
+media=0
+for i in range (1,100 + 1):
+    numeros=int(input("ingrese 100 numeros para calcular la media: "))
+    total = numeros+total 
+
+    media = total / i 
+print (media)
+#-------------------------------------
+
+#EJERCICIO-10
+unidad=0
+decena=0
+centena=0
+numero = int(input("ingrese un numero para invertir: "))
+centena = numero // 100 
+decena = (numero // 10) % 10
+unidad = numero % 10
+invertido = unidad * 100 + decena * 10 + centena
+
+print(invertido)
